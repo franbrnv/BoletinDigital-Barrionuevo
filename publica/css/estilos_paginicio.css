@@ -1,0 +1,182 @@
+.menu-container {
+    position: fixed;
+    top: 0;
+    right: 0px;
+    left: 0;
+    width: calc(100% 0px);
+    background-color:#c21c34;
+    padding: 1px;
+    border-bottom: #180508 15px solid;
+    
+}
+
+.menu-boton {
+    background-color: #c21c34;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;  /* Ajusta este valor para bajar la imagen */
+}
+
+.menu {
+    display: none;
+    text-align: right;
+    clear: both;
+    margin-right: 10px;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu-imagen {
+    max-width: 4%; 
+    height: auto; 
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 15px;  /* Ajusta este valor para bajar la imagen */
+}
+.logo {
+    max-width: 4%; /* Ajusta este valor según el tamaño deseado */
+    height: auto; 
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;  /* Ajusta este valor para bajar la imagen */
+    margin-left: 10px; /* Espacio a la izquierda */
+}
+
+.nombre_esc {
+    color: white;
+    font-size: 2.5vw; /* Tamaño responsive basado en el ancho de la ventana */
+    padding: 20px;    /* Espaciado ajustado */
+    text-align: center; /* Centra el texto */
+    float: left;      /* Evita que flote, mejora en pantallas pequeñas */
+    margin: 0;        /* Elimina márgenes fijos */
+    line-height: 1.2; /* Ajusta la altura de línea para mejor legibilidad */
+    font-weight: bold; /* Hace el texto más grueso */
+}
+
+.bienvenida {
+    text-align: center;
+    margin-top: 2%; 
+    margin-bottom: 20px; /* Agrega espacio debajo de la imagen */
+}
+
+
+.bienvenida-box {
+    background-color: #b4b8ba;
+    border: 1px solid #C6CFD3;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.foto_presentacion {
+    max-width: 50%; 
+    height: auto; 
+    border-radius: 7px;
+    border: 5px solid #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Esto separa un poco la imagen del texto */
+}
+
+.footer a {
+    color: white; /* Asegura que el texto sea blanco */
+    display: flex;
+    align-items: center; /* Alinea la imagen y el texto verticalmente */
+    text-decoration: none; /* Quita el subrayado del enlace */
+}
+
+.footer img {
+    margin-right: 5px; /* Agrega un pequeño espacio entre la imagen y el texto */
+}
+
+.acercadenosotros {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #000000;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 40px;
+    line-height: 1.6;
+    background-color: #b4b8ba; 
+    border-radius: 8px;
+}
+
+.acercadenosotros h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.texto {
+    flex: 2;
+    text-align: left;
+}
+
+.info-section {
+    margin-bottom: 20px;
+}
+
+.info-section h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.imagenes {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.imagenes img {
+    width: 80%;
+    border-radius: 10px;
+    border: 2px solid #727171;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Asegúrate de que el body tenga suficiente altura */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    min-height: 150vh; 
+    background-color: #C6CFD3;
+    margin-top: 100px; 
+}

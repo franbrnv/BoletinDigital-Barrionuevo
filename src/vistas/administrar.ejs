@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrar Usuarios</title>
+    <link rel="stylesheet" href="/css/administrar.css">
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <div class="menu-container">
+        <button class="menu-boton" onclick="toggleMenu()">
+            &#9776; Menú
+        </button>
+        <img src="/imagenes/logo.jpg" alt="logo" class="menu-imagen">
+        <img src="/imagenes/AUSTRAL NETWORKS LOGO.png" alt="Austral networks" class="logo">
+        <span class="nombre_esc">Colegio Provincial Dr Ernesto Guevara</span>
+        <div id="menu" class="menu">
+            <a href="/pagdeinicio">Inicio</a>
+            <a href="/perfil">Perfil</a>
+            <a href="/gestionar">Gestionar Alumnos</a>
+            <a href="/vernotas">Ver Notas puestas</a>
+            <a href="/administrar">Administrar Usuarios</a>
+        </div>
+    </div>
+
+    <div class="titulo-administrador">
+        <h1>Administrar Usuarios</h1>
+    </div>
+
+    <div class="tabla-centro">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Rol actual</th>
+                    <th>Cambiar rol</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% usuarios.forEach((usuario) => { %>
+                    <tr>
+                        <td><%= usuario.nombre %></td>
+                        <td><%= usuario.tipo_usuario_id %></td>
+                        <td>
+                            <form action="/cambiar-rol/<%= usuario.persona_id %>" method="POST">
+                                <select name="nuevo_rol">
+                                    <option value="1" <%= usuario.tipo_usuario_id == 1 ? 'selected' : '' %>>Alumno</option>
+                                    <option value="2" <%= usuario.tipo_usuario_id == 2 ? 'selected' : '' %>>Administrador</option>
+                                    <option value="3" <%= usuario.tipo_usuario_id == 3 ? 'selected' : '' %>>Alumnado</option>
+                                </select>
+                                <div class="guardar-section">
+                                    <button type="submit" class="btn-guardar">Guardar</button>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                <% }) %>
+            </tbody>
+        </table>
+    </div>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('menu');
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>

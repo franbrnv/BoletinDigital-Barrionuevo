@@ -1,0 +1,130 @@
+.menu-container {
+            position: fixed;
+            top: 0;
+            right: 0px;
+            left: 0;
+            width: calc(100% 0px);
+            background-color:#c21c34;
+            padding: 1px;
+            border-bottom: #180508 15px solid;
+            z-index: 1000;
+        }
+
+        .menu-boton {
+            background-color: #c21c34;
+            color: white;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            float: right;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+
+        .menu {
+            display: none;
+            text-align: right;
+            clear: both;
+            margin-right: 10px;
+        }
+
+        .menu a {
+            display: block;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        .menu-imagen {
+            max-width: 4%; 
+            height: auto; 
+            float: left;
+            margin-bottom: 10px;
+            margin-top: 15px;
+        }
+        
+        .logo {
+            max-width: 4%;
+            height: auto; 
+            float: left;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        
+        .nombre_esc {
+            color: white;
+            font-size: 2.5vw;
+            padding: 20px;
+            text-align: center;
+            float: left;
+            margin: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #C6CFD3;
+            margin-top: 100px;
+        }
+
+        /* Contenedor principal del contenido */
+        .contenido-principal {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Título centrado y grande */
+        .titulo-administrador {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 120px; /* Espacio debajo del menú */
+            margin-bottom: 10px; /* Espacio antes de la tabla */
+            background-color: #C6CFD3;
+            } 
+
+        /* Tabla centrada con márgenes */
+        .tabla-centro {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        table {
+            width: 95%;
+            max-width: 1000px;
+            border-collapse: collapse;
+            background-color: #b4b8ba;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        
+        th {
+            border: 1px solid black;
+            padding: 12px;
+            background-color: #c21c34;
+            color: white;
+            text-align: center;
+        }
+        
+        /* Select de roles */
+        select {
+            padding: 6px 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }

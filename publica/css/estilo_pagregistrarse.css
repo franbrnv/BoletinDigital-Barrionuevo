@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #C6CFD3;
+}
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #c21c34;
+    padding: 10px 20px;
+    border-bottom: 2px solid #180508;
+}
+
+.logo {
+    width: 60px; 
+    height: auto;
+    margin-right: 15px;
+    border-radius: 80px;
+}
+
+h1 {
+    align-self: auto;
+    margin: 0;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.registro-container {
+    margin: 30px auto; 
+    max-width: 400px;
+    padding: 20px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #b4b8ba; 
+    box-sizing: border-box; 
+    border-color: black;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.registro-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.registro-form input,
+.registro-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+.registro-form select {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.registro-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #302d2d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.registro-form button:hover {
+    background-color: #212121;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+}

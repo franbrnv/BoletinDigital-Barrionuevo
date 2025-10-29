@@ -1,0 +1,91 @@
+.menu-container {
+    position: fixed;
+    top: 0;
+    right: 0px;
+    left: 0;
+    width: calc(100% 0px);
+    background-color:#c21c34;
+    padding: 1px;
+    border-bottom: #180508 15px solid;
+}
+
+.menu-boton {
+    background-color: #c21c34;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;  /* Ajusta este valor para bajar la imagen */
+}
+
+.menu {
+    display: none;
+    text-align: right;
+    clear: both;
+    margin-right: 10px;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu-imagen {
+    max-width: 4%; 
+    height: auto; 
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 15px;  /* Ajusta este valor para bajar la imagen */
+}
+.logo {
+    max-width: 4%; /* Ajusta este valor según el tamaño deseado */
+    height: auto; 
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;  /* Ajusta este valor para bajar la imagen */
+    margin-left: 10px; /* Espacio a la izquierda */
+}
+.nombre_esc {
+    color: white;
+    font-size: 2.5vw; /* Tamaño responsive basado en el ancho de la ventana */
+    padding: 20px;    /* Espaciado ajustado */
+    text-align: center; /* Centra el texto */
+    float: left;      /* Evita que flote, mejora en pantallas pequeñas */
+    margin: 0;        /* Elimina márgenes fijos */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh; 
+    background-color: #C6CFD3;
+    margin-top: 100px; 
+}
+
+table {
+    width: 95%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b4b8ba;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+
+  td {
+    border: 1px solid black;
+    padding: 4px;
+    text-align: center;
+  }
+
+
