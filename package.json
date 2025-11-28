@@ -8,14 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lucasdiaz010/TPI-2024.git"
   },
   "author": "luvin01",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Lucasdiaz010/TPI-2024/issues"
-  },
-  "homepage": "https://github.com/Lucasdiaz010/TPI-2024#readme",
+  },,
   "dependencies": {
     "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
