@@ -9,9 +9,6 @@
   "repository": {
     "type": "git",
   },
-  "author": "luvin01",
-  "license": "ISC",
-  "bugs": {
   },,
   "dependencies": {
     "bcrypt": "^5.1.1",
